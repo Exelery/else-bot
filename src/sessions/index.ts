@@ -4,7 +4,6 @@ import fs from "node:fs/promises";
 import config from "../config";
 import { convertSession, credentialsToSession } from "./convert";
 import type { SessionData } from "../types/sessions";
-import { isDataObj } from "../utils/utils";
 
 const { sessionsFolder } = config;
 const SESSION_DATA = [

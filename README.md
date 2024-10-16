@@ -86,3 +86,8 @@ proxy: ["https://...:443", "http://...:8053"],
 ## About chances of being banned
 
 Everything is at your own risk. I don't recommend using it on the main accounts.
+
+
+## Info
+
+Follow me on Telegram: @degen_broke

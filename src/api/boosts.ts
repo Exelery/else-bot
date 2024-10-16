@@ -1,13 +1,9 @@
 import BaseRequest from "./base";
 import type {
   BoostInfo,
-  FullEnergy,
   RealtimeData,
-  Startup,
-  UserConfig,
-  UserResponse,
 } from "../types/users";
-import { sample } from "lodash";
+
 
 export class BoostsRequest extends BaseRequest {
   async increaseBoost(boost: "multitap" | "energy-limit", levelToBuy: number) {
@@ -48,11 +44,6 @@ export class BoostsRequest extends BaseRequest {
     }
   }
 
-  // buyRandomRoll(balance: number) {
-  //   const boost = sample(["energy-limit", "multitap"])! as
-  //     | "energy-limit"
-  //     | "multitap";
-  // }
 }
 
 type BoostResponse = {

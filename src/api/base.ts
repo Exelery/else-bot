@@ -1,6 +1,5 @@
 import type { BaseConfig } from "../types/base";
 import type { createLogger } from "../utils/logger";
-import { getRandomProxy } from "../utils/utils";
 
 export default class {
   userAgent: string;
