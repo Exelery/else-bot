@@ -3,6 +3,9 @@
 > [!WARNING]
 > Use at your own risk
 
+
+[Russian version (Русская версия)](README_RU.md)
+
 **else** is a full-featured bot for ELSE.
 
 ## Features
@@ -75,6 +78,16 @@ proxy: ["https://user:pass@host:port", "http://user:pass@host:port"],
 ## Disclaimer
 
 Use of this bot may violate ELSE's terms of service. Use at your own risk. We strongly advise against using it on main accounts.
+
+## Future Plans
+
+In upcoming updates, we plan to add the following features:
+
+1. Automatic referral management
+2. Automatic task completion
+3. Automatic verification process
+
+Stay tuned for updates!
 
 ## Contact
 
